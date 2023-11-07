@@ -119,3 +119,25 @@ make_graph(tesla_data,tesla_revenue,'Tesla')
 ```python
 make_graph(gme_data, gme_revenue, 'GameStop')
 ```
+
+
+![GME_GRAph](https://github.com/kartikeymx4/Extracting-and-visualizing-stock-data/assets/86483859/f5c254f2-877b-4a17-8585-9a7b1d0ce67e)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
