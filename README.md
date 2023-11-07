@@ -114,6 +114,9 @@ gme_revenue.tail()
 make_graph(tesla_data,tesla_revenue,'Tesla')
 ```
 
+![tesla_graph](https://github.com/kartikeymx4/Extracting-and-visualizing-stock-data/assets/86483859/74622404-defa-4fc5-90a2-91b3e922b984)
+
+
 <h2>Plot GameStop Stock Graph</h2>
 
 ```python
