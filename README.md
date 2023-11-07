@@ -44,7 +44,7 @@ tesla=yf.Ticker("TSLA")
 tesla_data=tesla.history(period="max")
 ```
 
-``python
+```python
 tesla_data.reset_index(inplace=True)
 tesla_data.head()
 ```
@@ -112,6 +112,7 @@ make_graph(tesla_data,tesla_revenue,'Tesla')
 ```
 
 <h2>Plot GameStop Stock Graph</h2>
+
 ```python
 make_graph(gme_data, gme_revenue, 'GameStop')
 ```
