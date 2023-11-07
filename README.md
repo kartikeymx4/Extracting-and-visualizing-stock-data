@@ -50,13 +50,16 @@ tesla_data.head()
 ```
 
 <h2>Use Webscraping to Extract Tesla Revenue Data</h2>
+
 ```python
 url=" https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0220EN-SkillsNetwork/labs/project/revenue.htm"
 html_data=requests.get(url).text
 ```
+
 ```python
 soup=BeautifulSoup(html_data)
 ```
+
 ```python
 tesla_revenue=pd.DataFrame(columns=["Date","Revenue"])
 table=soup.find_all('table')[1]
